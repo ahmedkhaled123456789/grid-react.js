@@ -5,7 +5,12 @@
   overflow: hidden;
 
 }
-
+@media (min-width: 1200px){
+  .hero{
+   position: relative;
+   }
+ 
+ }
 .back{
   position: absolute;
   right: -169px;
