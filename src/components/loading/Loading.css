@@ -55,3 +55,17 @@
   }
   
 }
+
+@media (max-width: 768px){
+
+  .ring{
+    width: 100px;
+    height: 100px;
+     
+  }
+  .text{
+    width: 100px;
+    height: 100px;
+      
+  }
+}
