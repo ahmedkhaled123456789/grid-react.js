@@ -37,7 +37,10 @@ position: relative;
   color: #ff4081;
   position: relative;
 }
- 
+.highlight span{
+  position: relative;
+  z-index: 1;
+}
  .highlight::before {
   content: '';
   position: absolute;
@@ -437,11 +440,10 @@ color: #fff;
   }
   
   }
-  @media (min-width: 350px){
+  @media (min-width: 375px){
 
     .highlight span{
-      position: relative;
-      z-index: 1;
+       z-index: 0;
     }
   }
 
