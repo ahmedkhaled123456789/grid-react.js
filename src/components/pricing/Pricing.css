@@ -1,0 +1,160 @@
+
+.pricing {
+  text-align: center;
+  padding: 40px 0;
+  background: #ffffff;
+  margin-top: 50px;
+}
+.pricing h2{
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.pricing p{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #5b5858;
+}
+
+.pricing p .Monthly{
+  color: #6200ea;
+ position: relative;
+}
+
+.pricing p .Monthly::after{
+  content: '';
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 2px;
+background: #fac971;
+   
+}
+.pricing-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  background: #fff;
+   border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: grid;
+  align-content: space-between;
+transition: all ease .5s;
+ cursor: pointer;
+}
+.pricing-card:hover{
+  transform: scale(.9);
+}
+
+
+.pricing-card h3 {
+  color: #6200ea;
+margin-bottom: 10px;
+font-size: 16px;
+}
+.pricing-card p {
+   font-size: 25px;
+   font-weight: 800;
+   color: #000;
+
+
+}
+.pricing-card p span {
+   font-size: 12px;
+   font-weight: 300;
+   color: #000;
+}
+
+.pricing-card li{
+  margin-bottom: 20px;
+ }
+
+ .pricing-card li i{
+  margin-right: 20px;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 50px;
+ }
+ .card_1 li i{
+background: #dbd7d7;
+ }
+ .card_2 li i{
+  background: #fac971;
+   }
+   .card_3 li i{
+    background: #00d8a7;
+     }
+ .btn_offer{
+  display: flex;
+  align-content: end;
+  justify-content: center;
+ }
+.pricing-card button {
+   color: #000;
+  border: 1px solid #6200ea;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+background: #fff;
+transition: all ease 0.3s;
+  }
+
+  .pricing-card button.active , .pricing-card button:hover {
+    background: #6200ea;
+    color: #fff;
+     
+  
+    }
+    .card_2 h3{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .pricing-card h3 i{
+      color: #000;
+    }
+.pricing-card .FERTI{
+  background: #fff;
+  border: 1px solid #6200ea;
+  padding: 5px 10px;
+  color: #000;
+  border-radius: 50px;
+
+}
+ 
+
+@media (max-width: 768px) {
+  
+  .pricing-options {
+    flex-direction: column;
+    align-items: center;
+  }
+
+   
+
+  .pricing-card {
+      padding: 10px;
+    width: 100%;
+         max-width: 250px;
+
+  }
+  .pricing-card li{
+    font-size: 12px;
+   }
+}
+/* ======================pricing========================= */
+
+
+
+

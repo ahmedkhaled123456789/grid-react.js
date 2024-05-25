@@ -1,0 +1,95 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+ }
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.container{
+  padding: 10px 80px;
+  
+}
+
+
+
+/*=======Scroll bar=======*/
+::-webkit-scrollbar{
+  width: 10px;
+   background:  #ccc;
+ }
+::-webkit-scrollbar-thumb{
+  background: #6d60e8 ;
+  border-radius: 2em;
+  cursor: pointer;
+
+ }
+::-webkit-scrollbar-thumb:hover{
+  background: #303f9f;
+ }
+
+
+
+
+
+ 
+/* ============================reveal========================= */
+.reveal{
+  position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 1.5s ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+} 
+
+
+.loady{
+  position: relative;
+  transform: translateX(-50px);
+  opacity: 0;
+  transition: all 1.5s ease;
+}
+.loady.active{
+  transform: translateX(0);
+  opacity: 1;     
+}
+
+.loady-2{
+  position: relative;
+  transform: translateX(50px);
+  opacity: 0;
+  transition: all 1.5s ease;
+}
+.loady-2.active{
+  transform: translateX(0);
+  opacity: 1;     
+} 
+
