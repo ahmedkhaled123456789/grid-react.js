@@ -1,17 +1,8 @@
 import React from 'react'
-import './Hero.css'
+import './Hero.css';
+import photo from '../images/b-6.png'
 const Hero = () => {
-  const divStyle = {
-    height: '700px',
-    width: '700px',
-    backgroundColor: 'rgba(98, 0, 234, 0.4)', // Assuming primary color is #6200ea
-    position: 'absolute',
-    top: '-50%',
-    right: '0',
-    borderRadius: '1.5rem', // 3xl in Tailwind is 1.5rem
-    transform: 'rotate(45deg)',
-    zIndex: -8
-  };
+      
   return (
     < >
     
@@ -19,8 +10,7 @@ const Hero = () => {
       <div className="back">
 
       </div> 
-       <div style={divStyle}></div>
-      <div className="banner">
+       <div className="banner">
         <h1>Combine <span className="highlight">  <span >fine</span> </span> images</h1>
         <p>To represent a product</p>
       </div>
@@ -60,7 +50,7 @@ const Hero = () => {
           <p>This is a multipurpose grid, it fits for portfolio, services, or agency websites</p>
 <div className="card">
   <div className="card-image card_one">  </div>
-  <div className="card-image card_two"> </div>
+  <div className="card-image card_two"> <img src={photo} alt="" /> </div>
 
 </div>
         </div>
