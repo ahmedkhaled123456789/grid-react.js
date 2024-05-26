@@ -2,7 +2,7 @@ import React from 'react'
 import './Features.css'
 const Features = () => {
   return (<> 
-  <section className="features-section container reveal">
+  <section className="features-section container reveal"id='ahmed' >
   <div className="intro">
     <h2>Delivering good designs <span>since 1954</span></h2>
     <p>We're the first multi-purpose design kit solutions for businesses.   We help you bridge gaps between your needs and solutions.</p>

@@ -14,7 +14,10 @@ const Hero = () => {
         <h1>Combine <span className="highlight">  <span >fine</span> </span> images</h1>
         <p>To represent a product</p>
       </div>
-      
+      <div className="btn_down">
+        <a className="down" href="#ahmed"><i class="fas fa-arrow-down"></i></a>
+
+      </div>
       <div className="image-grid">
         <div className="left_grid loady">
           <div className="description">
