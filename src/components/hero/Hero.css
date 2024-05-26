@@ -189,7 +189,9 @@ gap: 20px;
 }
 .card_two{
   background: #2e8efe;
-
+display: flex;
+align-items: center;
+justify-content: center;
 }
  .bottom_grid{
   display: flex;
