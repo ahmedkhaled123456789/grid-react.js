@@ -74,6 +74,7 @@ position: relative;
   font-weight: 400px;
   color: #5b5858;
   margin-bottom: 20px;
+  opacity: 0;
 }
 
 .left_grid .description_grid{
@@ -166,7 +167,7 @@ margin: 10px;
   font-size: 14px;
   font-weight: 500;
   margin-top: 50px;
-
+opacity: 0;
 }
 
 .card {
@@ -390,10 +391,7 @@ margin: 0px;
 
 }
 
-img{
-  width: 100%;
 
-}
  .bottom_grid{
   gap: 5px;
    margin-left: 5px;

@@ -25,16 +25,7 @@ const Hero = () => {
             </p>
            </div>
           <div className="description_grid">
-            <h2>
-              We aimed to deliver HQ 
              
-            </h2>
-            <h3>
-              templates for Figma
-            </h3>
-            <p>
-               used by 123 people
-            </p>
           </div>
           <div className="btn">
             <button className="read_more">Read More</button>
